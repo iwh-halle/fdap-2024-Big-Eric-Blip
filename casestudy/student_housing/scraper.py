@@ -2,16 +2,10 @@
 import requests
 from nltk.sentiment import SentimentIntensityAnalyzer
 from bs4 import BeautifulSoup
-import collections
 from datetime import datetime, timedelta
-from wordcloud import WordCloud
-import matplotlib.pyplot as plt
 import re
-import nltk
 import numpy as np
 import pandas as pd
-import configparser
-import openai
 import json
 
 # Define Scraper API key (replace with your own key)
